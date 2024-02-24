@@ -47,7 +47,7 @@ sections:
         - title: Coding Trainer
           company: Sheikh Hasina University
           company_url: ''
-          company_logo: org-x
+          company_logo: shu
           location: Netrokona, Bangladesh
           date_start: '2023-07-01'
           date_end: '2023-12-31'
@@ -55,7 +55,7 @@ sections:
         - title: Teaching Assistant & Coding Trainer
           company: Jahangirnagar University
           company_url: ''
-          company_logo: org-x
+          company_logo: juniv
           location: Savar, Dhaka, Bangladesh
           date_start: '2021-12-01'
           date_end: '2024-02-29'
