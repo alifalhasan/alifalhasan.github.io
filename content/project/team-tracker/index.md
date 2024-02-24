@@ -2,6 +2,7 @@
 title: Team Tracker
 summary: An Android project based on Java.
 tags:
+  - Other
   - Android
   - Java
   - Spring boot
