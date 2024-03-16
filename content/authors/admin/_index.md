@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Student of Computer Science & Engineering
+role: Student of Computer Science and Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.juniv.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Data Mining, Deep Learning and Software Engineering.
+bio: My research interests include Data Mining, Deep Learning, Natural Language Processing and Cybersecurity.
 
 # Interests to show in About widget
 interests:
@@ -39,12 +39,12 @@ education:
     # - course: PhD in Artificial Intelligence
     #   institution: Stanford University
     #   year: 2012
-    - course: MSc in Computer Science & Engineering
+    - course: MSc in Computer Science and Engineering
+      institution: Jahangirnagar University
+      year: 2024
+    - course: BSc in Computer Science and Engineering
       institution: Jahangirnagar University
       year: 2023
-    - course: BSc in Computer Science & Engineering
-      institution: Jahangirnagar University
-      year: 2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Alif Al Hasan is a student of Computer Science & Engineering at the Jahangirnagar University. His research interests include Data Mining, Deep Learning and Software Engineering.
+Alif Al Hasan is a student of Computer Science and Engineering at the Jahangirnagar University. His research interests include Data Mining, Deep Learning, Natural Language Processing and Cybersecurity.
 {style="text-align: justify;"}
