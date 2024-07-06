@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Alif Al Hasan
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alif Al
+last_name: Hasan
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,126 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Student of Computer Science and Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Jahangirnagar University
+    url: https://www.juniv.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:alif.stu2017@juniv.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/alifalhasan
+  - icon: hugging-face
+    url: https://huggingface.co/alifalhasan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/alif-al-hasan/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=yu0t6qsAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0000-3752-616X
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
+  - Natural Language Processing
+  - Software Engineering
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: MSc Computer Science and Engineering
+    institution: Jahangirnagar University
+    date_start: 2023-06-01
+    date_end: 2024-07-09
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 3.7/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Deep Learning
+      - Natural Language Processing
+      - Computer Vision
+  - area: BSc Computer Science and Engineering
+    institution: Jahangirnagar University
+    date_start: 2018-02-05
+    date_end: 2023-05-31
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.63/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Algorithm Analysis and Design
+      - Operating Systems
+      - Software Engineering
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Teaching Assistant & Coding Trainer
+    company_name: Department of Computer Science and Engineering, Jahangirnagar University
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2021-12-01
+    date_end: 2024-04-30
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Teaching data structures, algorithms, and C/C++ programming effectively.
+      - Overseeing practice contests to enhance programming proficiency.
+      - Facilitating team formation for competitive programming events.
+  - position: Coding Trainer
+    company_name: Department of Computer Science and Engineering, Sheikh Hasina University
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
+    date_start: 2023-07-01
+    date_end: 2023-12-31
+    summary: |2-
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+      - Delivering lessons on data structures, algorithms, and C/C++ programming.
+      - Organizing practice contests to enhance practical skills.
+      - Managing logistics and coordination for the contests efficiently.
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Competitive Programming Achievements
+    date: '2024-03-30'
+    awarder: Bangladesh
+    summary: |2-
+        * Ranked 3rd out of 165 teams in ICPC Asia Dhaka Regional Contest 2021 (Team: JU_kzvd4729).
+        * Ranked 17th out of 58 teams in ICPC Asia West Continent Finals 2021 (Team: JU_kzvd4729).
+        * Ranked 19th out of 196 teams in NCPC Onsite 2023 (Team: JU_kzvd4729).
+        * Ranked 12th out of 114 teams in BUET Inter University Programming Contest 2022 (Team: JU_kzvd4729).
+        * Ranked 12th out of 97 teams in RUET CSE FEST 2k22 IUPC (Team: JU_262627).
+        * Ranked 14th out of 105 teams in Cefalo CodeFiesta 2022: AUST IUPC (Team: JU_kzvd4729).
+        * Ranked 24th out of 110 teams in ICPC Dhaka Regional 2020 (Team: JU_Amigos).
+        * Ranked 1st out of 57 teams in MBSTU Inter Department Programming Contest 2020A (Team: JU_Fury).
+        * Ranked 4th out of 86 participants in Cub Hunting Programming Contest 2019 (Name: Alif Al Hasan).
+  - title: Online Problem Solving Achievements
+    date: '2024-03-30'
+    awarder: Codeforces, Codechef etc.
+    summary: |2-
+        * Codeforces - Max rating 1931 (Top 2%), Username: alif_cse_ju.
+        * Codechef - Max rating 2084 (Top 2%), Username: alif_cse_ju.
+        * StopStalk - Solved over 4500 programming problems on different online judges, Username: alif_cse_ju
+  - title: Python for Everybody Specialization
+    url: https://www.coursera.org/specializations/python
+    certificate_url: https://coursera.org/share/9a907fcf1aed3a7ee2ecb252707b7adf
+    date: '2020-07-21'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I learnt to program and analyze data with Python. By the end, I was familiar with how to develop a program in Python to gather data, clean them, analyze them and finally visualize the cleaned data. This course helped me a lot in my advanced courseworks when I worked with large data.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Alif Al Hasan is a student of Computer Science and Engineering at the Jahangirnagar University. His research interests include Natural Language Processing, Software Engineering, Deep Learning, Cybersecurity and Data Mining. He is currently working on several projects related to Natural Language Processing and Data Mining with industry leaders.
