@@ -48,6 +48,7 @@ interests:
   - Natural Language Processing
   - Software Engineering
   - Information Retrieval
+  - Human-centered Computing
 
 education:
   # - area: PhD Artificial Intelligence

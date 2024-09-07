@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a MSc (thesis) student of Computer Science and Engineering at Jahangirnagar University. I am currently preparing to apply as a prospective PhD student for enrollment in the fall of 2025.
+        I'm a MSc (thesis) student of Computer Science and Engineering at Jahangirnagar University.
         
         Please reach out to collaborate 😃
     design:
