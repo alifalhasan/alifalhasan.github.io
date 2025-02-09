@@ -1,9 +1,34 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}
+    <div class="col-md-12 text-center social-media-icons">
+      <a href="https://linkedin.com/in/alifalhasan" class="ms-3 social-link" title="LinkedIn">LinkedIn</a>
+      <a href="https://github.com/alifalhasan" class="ms-3 social-link" title="GitHub">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=yu0t6qsAAAAJ&hl=en" class="ms-3 social-link" title="Google Scholar">Google Scholar</a>
+      <!-- <a href="mailto:alif.stu2017@juniv.edu" class="ms-3 social-link" title="Email">Email</a> -->
     </div>
   </div>
 </footer>
+
+<style>
+  .social-media-icons a {
+    font-size: 14px; /* smaller font size */
+    color: #333; /* text color */
+    text-decoration: none; /* remove underline */
+    font-weight: 500; /* slightly bolder text */
+    padding: 5px 10px;
+    border-radius: 5px; /* rounded corners for the links */
+    transition: color 0.3s, transform 0.3s; /* smooth transition */
+  }
+
+  .social-media-icons a:hover {
+    color: #007bff; /* change text color to blue on hover */
+    transform: scale(1.05); /* slightly enlarge on hover */
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center; /* center-align the links */
+    flex-wrap: wrap; /* allow wrapping on small screens */
+    gap: 15px; /* space between links */
+  }
+</style>

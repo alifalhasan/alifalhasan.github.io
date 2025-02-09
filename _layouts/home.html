@@ -2,23 +2,30 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h3 class="fw-bold">Research</h3>
-    {{ content }}
-  </div>
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+<div class="container text-center mb-4">
+  <img src="{{ site.github.url }}/assets/img/alifalhasan.jpg" alt="Alif Al Hasan" class="img-fluid" style="width: 30%; height: 30%; object-fit: cover; border-radius: 50%;">
+</div>
+
+{% include contact.html %}
+
+<div class="container mb-5">
+  <h3 class="fw-bold border-bottom pb-3 text-center">About Me</h3>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      {{ content }}
+    </div>
   </div>
 </div>
 
-{% include publications.html %}
-
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
-    {% endfor %}
+<div class="container mb-5">
+  <h3 class="fw-bold border-bottom pb-3 text-center">Updates</h3>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <ul class="list-unstyled">
+        {% for post in site.data.posts.posts %}
+          <li>• [{{ post.month }}, {{ post.year }}] - {{ post.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
