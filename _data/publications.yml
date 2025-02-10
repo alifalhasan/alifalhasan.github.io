@@ -1,2 +1,21 @@
-index:
-- {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
+conference:
+- {title: 'Redefining POI Popularity: Integrating User Preferences and Recency for Enhanced Recommendations',
+  authors: 'Alif Al Hasan, Md. Musfique Anwar, M. Arifur Rahman',
+  venue: '2nd International Conference on Machine Intelligence and Emerging Technologies',
+  venueShort: 'MIET 2024',
+  date: 'November 2024',
+  url: 'https://arxiv.org/abs/2407.05360',
+  pdf: '/publications/conference/MIET-2024.pdf',
+  remark: ''}
+
+
+
+# Journal papers start here
+
+journal:
+
+
+
+# Workshop papers start here
+
+workshop:
