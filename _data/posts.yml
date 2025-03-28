@@ -1,4 +1,7 @@
 posts:
-  - month: Nov
-    year: 2024
-    description: Presented my paper at MIET-2024
+  - date: "March 2025"
+    description: "📢 <b>Paper Accepted!</b> Our research on <b>LLMs for Bug Report-Based Input Generation</b> has been accepted to <b>LLanMER 2025</b>."
+  - date: "March 2025"
+    description: "🎉 <b>Journal Acceptance!</b> Our paper on <b>Next POI Recommendation</b> has been accepted to <b>Array (SCI, Q1, IF: 2.7)</b>."
+  - date: "November 2024"
+    description: "📑 <b>Conference Presentation!</b> Presented our work on <b>Redefining POI Popularity</b> at <b>MIET 2024</b>."
