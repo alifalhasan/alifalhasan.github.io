@@ -1,0 +1,8 @@
+- title: "LLPut: Investigating Large Language Models for Bug Report-Based Input Generation"
+  authors: "Alif Al Hasan, Subarna Saha, Mia Mohammad Imran, Tarannum Shaila Zaman"
+  venue: "1st International Workshop on Large Language Model-Oriented Empirical Research (held in conjunction with ACM FSE 2025)"
+  venueShort: "LLanMER 2025"
+  datePlace: "Trondheim, Norway, 2025"
+  bibkey:
+  doi:
+  arxiv: "https://arxiv.org/abs/2503.20578"

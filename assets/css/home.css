@@ -15,8 +15,9 @@
 
 .custom-btn:hover,
 .custom-btn:focus {
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border-color: #212529 !important;
 }
 
 .custom-btn:active {
