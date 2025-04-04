@@ -1,41 +1,72 @@
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
+
 <div class="container mb-5">
-  <h3 class="fw-bold border-bottom pb-3 text-center">Publications</h3>
+  <h3 class="fw-bold border-bottom pb-3 text-center text-primary">Publications</h3>
   <div class="row justify-content-center">
     <div class="col-md-10">
-      
-      <h4 class="fw-bold text-primary mt-4">Conference Papers</h4>
-      <ul class="list-unstyled">
-        {% for item in site.data.publications.conference %}
-          <li class="mb-3 border-bottom pb-2">• 
-            <span class="fw-medium text-dark"><b>[{{ item.venueShort }}]</b> {{ item.authors | replace: 'Alif Al Hasan', '<b>Alif Al Hasan</b>' }}, "{{ item.title }}", <i>{{ item.venue }}</i>, {{ item.date }}.</span>
-            {% if item.url %} <a href="{{ item.url }}" class="text-decoration-none text-primary">[Paper]</a> {% endif %}
-            {% if item.arxiv %} <a href="{{ item.arxiv }}" class="text-decoration-none text-primary">[arXiv]</a> {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
 
-      <h4 class="fw-bold text-primary mt-4">Journal Papers</h4>
-      <ul class="list-unstyled">
-        {% for item in site.data.publications.journal %}
-          <li class="mb-3 border-bottom pb-2">• 
-            <span class="fw-medium text-dark"><b>[{{ item.venueShort }}]</b> {{ item.authors | replace: 'Alif Al Hasan', '<b>Alif Al Hasan</b>' }}, "{{ item.title }}", <i>{{ item.venue }}</i>, {{ item.date }}.</span>
-            {% if item.url %} <a href="{{ item.url }}" class="text-decoration-none text-primary">[Paper]</a> {% endif %}
-            {% if item.arxiv %} <a href="{{ item.arxiv }}" class="text-decoration-none text-primary">[arXiv]</a> {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+      {% assign sections = site.data.publications %}
+      {% for section in sections %}
+        <h4 class="fw-bold text-primary mt-5">{{ section[0] | capitalize }} Papers</h4>
+        {% assign papers = section[1] | reverse %}
+        <ul class="list-unstyled ps-2">
+          {% for item in papers %}
+            <li class="mb-5 d-flex">
+              <span class="fw-medium text-secondary me-3">
+                <b>[{{ section[0] | slice: 0,1 | upcase }}{{ forloop.index }}]</b>
+              </span>
+              <div>
+                <p class="mb-1 text-dark">
+                  {{ item.authors | replace: 'Alif Al Hasan', '<b>Alif Al Hasan</b>' }}
+                </p>
+                <p class="mb-1 fw-semibold text-dark">"{{ item.title }}"</p>
+                <p class="mb-2 text-muted fst-italic">
+                  {{ item.venue }}, <b>[{{ item.venueShort }}]</b>, {{ item.datePlace }}.
+                </p>
 
-      <h4 class="fw-bold text-primary mt-4">Workshop Papers</h4>
-      <ul class="list-unstyled">
-        {% for item in site.data.publications.workshop %}
-          <li class="mb-3 border-bottom pb-2">• 
-            <span class="fw-medium text-dark"><b>[{{ item.venueShort }}]</b> {{ item.authors | replace: 'Alif Al Hasan', '<b>Alif Al Hasan</b>' }}, "{{ item.title }}", <i>{{ item.venue }}</i>, {{ item.date }}.</span>
-            {% if item.url %} <a href="{{ item.url }}" class="text-decoration-none text-primary">[Paper]</a> {% endif %}
-            {% if item.arxiv %} <a href="{{ item.arxiv }}" class="text-decoration-none text-primary">[arXiv]</a> {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+                <div class="btn-group gap-2">
+                  {% if item.bibkey %}
+                    <button class="btn btn-sm custom-btn" onclick="showBibtex('{{ item.bibkey }}')">
+                      <i class="fas fa-quote-left me-1"></i> Cite
+                    </button>
+                  {% endif %}
+                  {% if item.doi %}
+                    <a href="{{ item.doi }}" class="btn btn-sm custom-btn" target="_blank">
+                      <i class="fas fa-file-alt me-1"></i> DOI
+                    </a>
+                  {% endif %}
+                  {% if item.arxiv %}
+                    <a href="{{ item.arxiv }}" class="btn btn-sm custom-btn" target="_blank">
+                      <i class="fas fa-book me-1"></i> arXiv
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
 
+    </div>
+  </div>
+</div>
+
+<!-- BibTeX Modal -->
+<div id="bibtexModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header d-flex justify-content-between align-items-center">
+      <h5 class="fw-bold m-0">Cite</h5>
+      <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+    <pre id="bibtexContent" class="p-3">@Loading...</pre>
+    <div class="button-container d-flex justify-content-end gap-2 px-3 pb-3">
+      <button class="btn btn-sm custom-btn" onclick="copyBibtex()">
+        <i class="fas fa-copy me-1"></i> Copy
+      </button>
+      <a id="downloadBibtex" class="btn btn-sm custom-btn" download>
+        <i class="fas fa-download me-1"></i> Download
+      </a>
     </div>
   </div>
 </div>

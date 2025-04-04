@@ -1,11 +1,22 @@
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
   {% include head.html %}
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-      {% include header.html %}
+</head>
+
+<body>
+  <main class="container-lg px-3 py-4 py-md-5">
+    {% include header.html %}
+
+    <section>
       {{ content }}
-      {% include footer.html %}
-    </div>
-  </body>
+    </section>
+
+    {% include footer.html %}
+  </main>
+</body>
+
 </html>

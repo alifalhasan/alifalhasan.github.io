@@ -1,0 +1,26 @@
+.profile-img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn {
+    border: 2px solid #212529;
+    color: #212529;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.custom-btn:active {
+    background-color: #e2e6ea !important;
+    color: #212529 !important;
+    border-color: #212529 !important;
+}

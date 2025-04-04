@@ -1,0 +1,20 @@
+<div class="container mb-5">
+    <h3 class="fw-bold border-bottom pb-3 text-center">Latest Updates</h3>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <ul class="list-unstyled">
+                {% assign grouped_posts = site.data.posts.posts | group_by: "date" %}
+                {% for group in grouped_posts %}
+                <li class="mb-3">
+                    <span class="fw-medium text-dark">📅 <b>{{ group.name }}</b></span>
+                    <ul class="mt-1">
+                        {% for post in group.items %}
+                        <li class="text-dark">{{ post.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

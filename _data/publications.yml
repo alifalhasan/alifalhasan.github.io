@@ -3,8 +3,9 @@ conference:
   authors: "Alif Al Hasan, Md. Musfique Anwar, M. Arifur Rahman"
   venue: "2nd International Conference on Machine Intelligence and Emerging Technologies"
   venueShort: "MIET 2024"
-  date: "2024"
-  url: ""
+  datePlace: "Noakhali, Bangladesh, 2024"
+  bibkey: 
+  doi: 
   arxiv: "https://arxiv.org/abs/2407.05360"
 
 
@@ -16,9 +17,10 @@ journal:
 - title: "SEAGET: Seasonal and Active hours guided Graph Enhanced Transformer for the next POI recommendation"
   authors: "Alif Al Hasan, Md. Musfique Anwar"
   venue: "Array (Journal Rank: Q1, Scopus Indexed, IF: 2.7)"
-  venueShort: "Array (Q1, IF: 2.7)"
+  venueShort: "Array"
   date: "2025"
-  url: ""
+  bibkey: "journal/2025/j.array.2025.100385"
+  doi: "https://doi.org/10.1016/j.array.2025.100385"
   arxiv: "https://arxiv.org/abs/2503.21225"
 
 
@@ -31,6 +33,7 @@ workshop:
   authors: "Alif Al Hasan, Subarna Saha, Mia Mohammad Imran, Tarannum Shaila Zaman"
   venue: "1st International Workshop on Large Language Model-Oriented Empirical Research (held in conjunction with ACM FSE 2025)"
   venueShort: "LLanMER 2025"
-  date: "2025"
-  url: ""
+  datePlace: "Trondheim, Norway, 2025"
+  bibkey:
+  doi: 
   arxiv: "https://arxiv.org/abs/2503.20578"

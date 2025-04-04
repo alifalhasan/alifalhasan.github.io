@@ -1,0 +1,93 @@
+/* assets/css/publications.css */
+
+.publication-btn {
+    border: 2px solid #212529;
+    color: #212529;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.publication-btn i {
+    margin-right: 6px;
+}
+
+.publication-btn:hover,
+.publication-btn:focus {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.publication-btn:active {
+    background-color: #e2e6ea !important;
+    color: #212529 !important;
+    border-color: #212529 !important;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.close {
+    font-size: 22px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close:hover {
+    color: #000;
+}
+
+pre {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.me-1 {
+    margin-right: 0.25rem !important;
+}

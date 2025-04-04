@@ -1,0 +1,32 @@
+/* Removed background-color to keep default white */
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 10px 0;
+}
+
+.social-link {
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.social-link:hover {
+    color: #007bff;
+    transform: scale(1.05);
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.social-link i {
+    font-size: 16px;
+}

@@ -2,72 +2,8 @@
 layout: default
 ---
 
-<div class="container text-center mb-4">
-  <img src="{{ site.github.url }}/assets/img/alifalhasan.jpg" 
-       alt="Alif Al Hasan" 
-       class="img-fluid" 
-       style="width: 300px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-
-  <div class="mt-4">
-    <a href="assets/docs/cv.pdf" class="btn btn-outline-dark custom-btn fw-bold px-4 py-2 shadow-sm" download>
-      <i class="fas fa-download me-2"></i> Download CV
-    </a>
-    <p class="text-secondary mt-2" style="font-size: 0.9rem;">
-      <i class="far fa-calendar-alt"></i> Last updated: <b>February 10, 2025</b>
-    </p>
-  </div>
-</div>
-
-<style>
-  .custom-btn {
-    border: 2px solid #212529;
-    color: #212529;
-    background-color: transparent;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-
-  .custom-btn:hover, .custom-btn:focus {
-    background-color: #f8f9fa; /* Light gray for a premium touch */
-    color: #212529;
-  }
-
-  .custom-btn:active {
-    background-color: #e2e6ea !important; /* Slightly darker when clicked */
-    color: #212529 !important;
-    border-color: #212529 !important;
-  }
-</style>
-
-
-
+{% include home/profile.html %}
+{% include home/cv-button.html %}
 {% include contact.html %}
-
-<div class="container mb-5">
-  <h3 class="fw-bold border-bottom pb-3 text-center">About Me</h3>
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      {{ content }}
-    </div>
-  </div>
-</div>
-
-<div class="container mb-5">
-  <h3 class="fw-bold border-bottom pb-3 text-center">Latest Updates</h3>
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <ul class="list-unstyled">
-        {% assign grouped_posts = site.data.posts.posts | group_by: "date" %}
-        {% for group in grouped_posts %}
-          <li class="mb-3">
-            <span class="fw-medium text-dark">📅 <b>{{ group.name }}</b></span>
-            <ul class="mt-1">
-              {% for post in group.items %}
-                <li class="text-dark">{{ post.description }}</li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+{% include home/about.html %}
+{% include home/updates.html %}

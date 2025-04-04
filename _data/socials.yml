@@ -1,0 +1,19 @@
+- name: LinkedIn
+  url: https://linkedin.com/in/alifalhasan
+  icon: fab fa-linkedin
+
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=yu0t6qsAAAAJ&hl=en
+  icon: fas fa-graduation-cap
+
+- name: GitHub
+  url: https://github.com/alifalhasan
+  icon: fab fa-github
+
+- name: Hugging Face
+  url: https://huggingface.co/alifalhasan
+  icon: fas fa-robot
+
+- name: StopStalk
+  url: https://www.stopstalk.com/user/profile/alif_cse_ju
+  icon: fas fa-code
