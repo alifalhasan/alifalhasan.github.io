@@ -2,6 +2,7 @@ menu:
 # - {name: 'people', url: '/people'}
 - {name: 'Academic', url: '/academic'}
 - {name: 'Publications', url: '/publications'}
+- {name: 'Achievements', url: '/achievements'}
 
 contacts:
 - {name: 'Alif Al Hasan', title: 'Student', department: 'Computer Science and Engineering', institution: 'Jahangirnagar University', institution_address: 'Savar, Dhaka, Bangladesh', email: 'alif [dot] stu2017 [at] juniv [dot] edu', office: '', image: 'assets/img/alifalhasan.jpg'}

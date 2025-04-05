@@ -1,0 +1,15 @@
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 12px 15px;
+  transition: background 0.2s ease-in-out;
+  font-size: 1rem;
+}
+
+.list-group-item i {
+  font-size: 18px;
+}
+
+.list-group-item:hover {
+  background: #f8f9fa;
+}
