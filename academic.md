@@ -1,0 +1,4 @@
+---
+layout: academic
+title: "Academic"
+---
