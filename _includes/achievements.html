@@ -1,0 +1,123 @@
+<!-- Link external CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/achievements.css' | relative_url }}">
+
+<section class="section-wrapper">
+    <div class="title-container">
+        <h2 class="section-title">
+            <i class="fas fa-trophy"></i> Achievements
+        </h2>
+        <hr class="title-underline">
+    </div>
+
+    <!-- Grants and Fellowships -->
+    <div class="achievement-card">
+        <div class="achievement-content">
+            <h4><i class="fas fa-university"></i> Grants & Fellowships</h4>
+            <ul class="custom-list">
+                {% for grant in site.data.achievements.grants %}
+                <li>
+                    <i class="fas fa-hand-holding-usd icon text-success"></i>
+                    <div>
+                        <p class="achievement-title">{{ grant.name }}
+                            <span class="achievement-subtext">– {{ grant.organization }}</span>
+                        </p>
+                        <p class="achievement-meta">
+                            <i class="fas fa-money-bill-wave"></i> {{ grant.amount }} |
+                            <i class="fas fa-calendar-alt"></i> {{ grant.date }}
+                        </p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Scholarships -->
+    <div class="achievement-card">
+        <div class="achievement-content">
+            <h4><i class="fas fa-graduation-cap"></i> Scholarships</h4>
+            <ul class="custom-list">
+                {% for scholarship in site.data.achievements.scholarships %}
+                <li>
+                    <i class="fas fa-award icon text-info"></i>
+                    <div>
+                        <p class="achievement-title">{{ scholarship.name }}
+                            <span class="achievement-subtext">– {{ scholarship.organization }}</span>
+                        </p>
+                        <p class="achievement-meta">
+                            {% if scholarship.amount %}
+                            <i class="fas fa-money-check-alt"></i> {{ scholarship.amount }} |
+                            {% endif %}
+                            <i class="fas fa-calendar-alt"></i> {{ scholarship.date }}
+                        </p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Standardized Test Scores -->
+    <div class="achievement-card">
+        <div class="achievement-content">
+            <h4><i class="fas fa-file-alt"></i> Standardized Test Scores</h4>
+            <ul class="custom-list">
+                {% for test in site.data.achievements.standardized_tests %}
+                <li>
+                    <i class="fas fa-clipboard-check icon text-muted"></i>
+                    <div>
+                        <p class="achievement-title">{{ test.exam }}: {{ test.score }}</p>
+                        <p class="achievement-meta">{{ test.details }} | <span>{{ test.date }}</span></p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Offline Competitive Programming Achievements -->
+    <div class="achievement-card">
+        <div class="achievement-content">
+            <h4><i class="fas fa-chess-knight"></i> Offline Competitive Programming</h4>
+            <ul class="custom-list">
+                {% for comp in site.data.achievements.onsites %}
+                <li>
+                    <i class="fas fa-medal icon text-warning"></i>
+                    <div>
+                        <p class="achievement-title">{{ comp.title }}
+                            {% if comp.rank %} - <span class="achievement-subtext">{{ comp.rank }}</span>{% endif %}
+                        </p>
+                        {% if comp.team %}
+                        <p class="achievement-meta">Team: <b>{{ comp.team }}</b></p>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Online Competitive Programming Achievements -->
+    <div class="achievement-card">
+        <div class="achievement-content">
+            <h4><i class="fas fa-laptop-code"> </i> Online Competitive Programming</h4>
+            <ul class="custom-list">
+                {% for comp in site.data.achievements.onlines %}
+                <li>
+                    <i class="fas fa-globe icon text-success"></i>
+                    <div>
+                        <p class="achievement-title">{{ comp.title }}
+                            {% if comp.profile %}
+                            <a href="{{ comp.profile }}" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            {% endif %}
+                        </p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+</section>

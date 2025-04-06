@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Attach click event to all Cite buttons
+    document.querySelectorAll(".cite-btn").forEach(button => {
+        button.addEventListener("click", function () {
+            const bibkey = this.getAttribute("data-bibkey");
+            showBibtex(bibkey);
+        });
+    });
+});
+
 function showBibtex(bibkey) {
     fetch(`/static/citations/${bibkey}.bib`)
         .then(response => response.text())
@@ -5,6 +15,10 @@ function showBibtex(bibkey) {
             document.getElementById('bibtexContent').textContent = data;
             document.getElementById('downloadBibtex').setAttribute('href', `data:text/plain;charset=utf-8,${encodeURIComponent(data)}`);
             document.getElementById('bibtexModal').style.display = 'flex';
+        })
+        .catch(error => {
+            console.error("Error loading BibTeX:", error);
+            document.getElementById('bibtexContent').textContent = "Failed to load citation.";
         });
 }
 
@@ -12,37 +26,14 @@ function closeModal() {
     document.getElementById('bibtexModal').style.display = 'none';
 }
 
-function copyBibtex() {
+document.getElementById("copyBibtexBtn").addEventListener("click", function () {
     const bibtexContent = document.getElementById("bibtexContent").innerText.trim();
-    const copyButton = document.getElementById("copyBibtexBtn");
     const copyText = document.getElementById("copyBibtexText");
 
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(bibtexContent).then(() => {
-            copyText.innerText = "Copied!";
-            copyButton.disabled = true;
-
-            setTimeout(() => {
-                copyText.innerText = "Copy";
-                copyButton.disabled = false;
-            }, 1500);
-        }).catch(err => {
-            console.error("Failed to copy BibTeX:", err);
-        });
-    } else {
-        const textarea = document.createElement("textarea");
-        textarea.value = bibtexContent;
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand("copy");
-        document.body.removeChild(textarea);
-
+    navigator.clipboard.writeText(bibtexContent).then(() => {
         copyText.innerText = "Copied!";
-        copyButton.disabled = true;
-
-        setTimeout(() => {
-            copyText.innerText = "Copy";
-            copyButton.disabled = false;
-        }, 1500);
-    }
-}
+        setTimeout(() => { copyText.innerText = "Copy"; }, 1500);
+    }).catch(err => {
+        console.error("Failed to copy BibTeX:", err);
+    });
+});

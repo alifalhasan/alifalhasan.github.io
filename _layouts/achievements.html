@@ -4,16 +4,4 @@ layout: default
 
 {{ content }}
 
-<link rel="stylesheet" href="{{ '/assets/css/achievements.css' | relative_url }}">
-
-<div class="container mb-5">
-    <h3 class="fw-bold border-bottom pb-3 text-center text-primary">
-        <i class="fas fa-trophy me-2"></i> Achievements
-    </h3>
-
-    {% include achievements/grants.html %}
-    {% include achievements/scholarships.html %}
-    {% include achievements/standardized_tests.html %}
-    {% include achievements/offline_competitions.html %}
-    {% include achievements/online_achievements.html %}
-</div>
+{% include achievements.html %}
