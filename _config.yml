@@ -2,6 +2,3 @@ url: "https://alifalhasan.github.io/"
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Alif Al Hasan"
 # description: "M.Sc. student @ Jahangirnagar University"
-
-sass:
-  style: compressed
