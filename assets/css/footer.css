@@ -1,4 +1,4 @@
-/* Removed background-color to keep default white */
+/* Footer - black & white aesthetic */
 
 .social-media-icons {
     display: flex;
@@ -10,7 +10,7 @@
 
 .social-link {
     font-size: 15px;
-    color: #444;
+    color: #000000;
     text-decoration: none;
     font-weight: 500;
     padding: 6px 12px;
@@ -22,11 +22,12 @@
 }
 
 .social-link:hover {
-    color: #007bff;
+    color: #000000;
     transform: scale(1.05);
-    background-color: rgba(0, 123, 255, 0.05);
+    background-color: #f0f0f0;
 }
 
 .social-link i {
     font-size: 16px;
+    color: #000000;
 }
