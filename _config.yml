@@ -1,4 +1,12 @@
-url: "https://alifalhasan.github.io/"
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://alifalhasan.github.io"
+baseurl: ""
 title: "Alif Al Hasan"
-# description: "M.Sc. student @ Jahangirnagar University"
+# description: "Computer Science graduate from Jahangirnagar University. Researcher in AI and Software Engineering. Former competitive programmer with a passion for innovation."
+author: "Alif Al Hasan"
+
+logo: "/assets/img/alifalhasan.jpg"
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
