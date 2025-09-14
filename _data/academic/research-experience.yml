@@ -1,11 +1,39 @@
-- title: 'Research Assistant'
-  supervisor: 'Dr. Mia Mohammad Imran'
-  lab: 'Software Engineering Research Lab'
-  duration: 'May, 2024 – Ongoing'
-  location: 'Missouri University of Science and Technology, Missouri, USA'
+- title: "Graduate Research Assistant"
+  supervisor: "Dr. Sumon Biswas"
+  lab: "Safe and Responsible AI Engineering Lab"
+  duration: "September 2025 – Ongoing"
+  location: "Case Western Reserve University, Ohio, USA"
+  responsibilities:
+    - Conduct cutting-edge research at the intersection of Software Engineering and Large Language Models (LLMs).  
+    - Collaborate with multidisciplinary teams to design, implement, and evaluate LLM-driven software engineering solutions.  
+    - Author and prepare manuscripts for submission to leading peer-reviewed software engineering conferences.  
 
-- title: 'Research Assistant'
-  supervisor: 'Dr. Md. Musfique Anwar'
-  lab: 'Data Mining Research Lab'
-  duration: 'Nov, 2023 – Jul, 2024'
-  location: 'Jahangirnagar University, Dhaka, Bangladesh'
+- title: "Research Assistant"
+  supervisor: "Dr. Mia Mohammad Imran"
+  lab: "Human-Centered Software Engineering Lab"
+  duration: "May 2024 – July 2025"
+  location: "Missouri University of Science and Technology, Missouri, USA"
+  responsibilities:
+    - Investigated learning-centered emotions (LCEs) in novice programmers to uncover key learning challenges in online forums.  
+    - Analyzed LCEs to assess how LLMs can provide affect-aware, pedagogically effective feedback.  
+    - Co-authored two peer-reviewed papers for top-tier conferences in software engineering and AI education.  
+
+- title: "Remote Research Intern"
+  supervisor: "Dr. Tarannum Shaila Zaman"
+  lab: "AI-Driven Software Engineering Lab"
+  duration: "January 2025 – February 2025"
+  location: "University of Maryland Baltimore County, Maryland, USA"
+  responsibilities:
+    - Explored the application of LLMs for automated bug report-driven input generation.  
+    - Co-authored a workshop paper accepted at LLanMER 2025.  
+    - Assisted in designing and executing collaborative experiments, including data collection and evaluation pipelines.  
+
+- title: "Research Assistant"
+  supervisor: "Dr. Md. Musfique Anwar"
+  lab: "Data Mining and Information Retrieval Systems Lab"
+  duration: "November 2023 – July 2024"
+  location: "Jahangirnagar University, Dhaka, Bangladesh"
+  responsibilities:
+    - Developed and optimized recommendation system models, with a focus on Point-of-Interest (POI) popularity prediction.  
+    - Co-authored a Q1 journal article published in *Array* (SCI, IF 2.7).  
+    - Assisted in end-to-end data preprocessing, model design, implementation, and performance evaluation.

@@ -66,17 +66,46 @@
     font-size: 1.125rem;
     font-weight: 600;
     color: #000000;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .card-text {
     font-size: 0.95rem;
     color: #444444;
+    margin-bottom: 0.35rem;
 }
 
 .card-text small {
     font-size: 0.85rem;
-    color: #444444;
+    color: #555555;
+}
+
+/* Responsibility List */
+.responsibility-list {
+    margin-top: 10px;
+    padding-left: 18px;
+    font-size: 0.9rem;
+    color: #333333;
+    list-style: none;
+}
+
+.responsibility-list li {
+    margin-bottom: 6px;
+    position: relative;
+    padding-left: 18px;
+}
+
+/* Custom checkmark bullet */
+.responsibility-list li::before {
+    content: "\f00c";
+    /* Font Awesome checkmark */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #000000;
+    font-size: 0.75rem;
+    top: 2px;
 }
 
 /* Responsive Tweaks */

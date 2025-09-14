@@ -3,8 +3,6 @@ layout: home
 title: "Home"
 ---
 
-**Alif Al Hasan** earned both his **Bachelor’s and Master’s degrees in Computer Science and Engineering** from **Jahangirnagar University**. He has a strong background in **competitive programming** and a deep interest in **software engineering, natural language processing (NLP), and data mining**.  
+**Alif Al Hasan** is a **Ph.D. student in Computer Science** at **Case Western Reserve University**, specializing in **Software Engineering and Large Language Modesl (LLMs)**. He earned his **Bachelor’s and Master’s degrees in Computer Science and Engineering** from **Jahangirnagar University**, building expertise in **algorithm design, competitive programming, and large-scale data analysis**.
 
-He has published in **renowned conferences and journals**. He was also awarded the **NST fellowship** for his Master’s research.  
-
-Alif is passionate about **problem-solving, research, and innovation**, continuously contributing to both academia and the programming community.
+Alif has published in **top-tier conferences and journals** and was awarded the **NST Fellowship** for his Master’s research. He is passionate about **research, innovation, and problem-solving**, contributing actively to both **academic advancements and the programming community** through research and mentorship.

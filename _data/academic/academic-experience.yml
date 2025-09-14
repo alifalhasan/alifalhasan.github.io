@@ -1,9 +1,27 @@
-- title: 'Teaching Assistant'
-  duration: 'Dec, 2021 – Apr, 2024'
-  department: 'Computer Science and Engineering'
-  institution: 'Jahangirnagar University'
+- title: "Teaching Assistant"
+  duration: "Aug, 2025 – Present"
+  course: "CSDS 325/425: Computer Networks"
+  institution: "Case Western Reserve University"
+  responsibilities:
+    - Assisted in teaching undergraduate and graduate students in computer networking concepts.
+    - Held office hours, guided lab assignments, and provided one-on-one academic support.
+    - Supported course logistics including grading, discussion facilitation, and exam preparation.
 
-- title: 'Competitive Programming Mentor'
-  duration: 'Aug, 2023 – Dec, 2023'
-  department: 'Computer Science and Engineering'
-  institution: 'Netrokona University'
+- title: "Teaching Assistant (Competitive Programming)"
+  duration: "Dec, 2021 – Apr, 2024"
+  department: "Computer Science and Engineering"
+  institution: "Jahangirnagar University"
+  responsibilities:
+    - Conducted extra-curricular Competitive Programming classes for undergraduate students.
+    - Guided students on problem-solving strategies, algorithms, and coding challenges.
+    - Mentored students for inter-university and national-level programming contests.
+    - Provided personalized support and feedback during practice sessions.
+
+- title: "Competitive Programming Mentor"
+  duration: "Aug, 2023 – Dec, 2023"
+  department: "Computer Science and Engineering"
+  institution: "Netrokona University"
+  responsibilities:
+    - Designed and conducted weekly training sessions on data structures, algorithms, and problem-solving strategies. 
+    - Prepared students for inter-university and national-level programming contests.
+    - Provided personalized mentorship and debugging guidance during practice sessions.
