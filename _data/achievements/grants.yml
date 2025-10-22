@@ -3,6 +3,12 @@
   amount: "$700 for M.Sc. thesis research"
   date: Feb 2025
   location: Dhaka, Bangladesh
+  
+- name: "Government Scholarship"
+  organization: "Ministry of Education, Bangladesh"
+  amount: "Awarded by the Government of Bangladesh for outstanding academic performance at Jahangirnagar University"
+  date: Oct 2025
+  location: Dhaka, Bangladesh
 
 - name: "Dean's Scholarship"
   organization: "Jahangirnagar University"
