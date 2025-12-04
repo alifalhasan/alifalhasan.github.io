@@ -1,13 +1,18 @@
 posts:
+  - date: "November 2025"
+    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Learning Programming in Informal Spaces: Using Emotion as a Lens to Understand Novice Struggles on r/learnprogramming”</i> was accepted to <b>ICSE SEET 2026</b>."
+  
   - date: "October 2025"
-    description: "🏅 Received a <b>Government Scholarship</b> for academic excellence during my B.Sc. at <b>Jahangirnagar University</b>."
+    description: "🏅 Received a <b>Government Scholarship</b> for outstanding academic performance during my B.Sc. studies at <b>Jahangirnagar University</b>."
+  
   - date: "August 2025"
-    description: "🎓 Started my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, under the supervision of <b><a href='https://sumonbis.github.io/' target='_blank'>Prof. Sumon Biswas</a></b>."
+    description: "🎓 Began my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, supervised by <b><a href='https://sumonbis.github.io/' target='_blank'>Prof. Sumon Biswas</a></b>."
+  
   - date: "March 2025"
-    description: "📝 <b>Workshop Paper Accepted:</b> Our work on <b>LLMs for Bug Report-Based Input Generation</b> was accepted for presentation at <b>LLanMER 2025</b>."
+    description: "📝 <b>Workshop Paper Accepted:</b> Our work on <i>LLMs for Bug Report-Based Input Generation</i> was accepted for presentation at <b>LLanMER 2025</b>."
+  
   - date: "March 2025"
-    description: "📄 <b>Journal Article Accepted:</b> Our paper on <b>Next POI Recommendation</b> was accepted for publication in <b>Array</b> (SCI Q1, IF 4.5)."
+    description: "📄 <b>Journal Article Accepted:</b> Our paper on <i>Next POI Recommendation</i> was accepted for publication in <b>Array</b> (SCI Q1, IF 4.5)."
+  
   - date: "February 2025"
-    description: "🏅 Awarded the <b>National Science and Technology (NST) Fellowship</b> in recognition of academic excellence and research contributions."
-  - date: "November 2024"
-    description: "📊 <b>Conference Presentation:</b> Presented our research on <b>Redefining Point of Interest (POI) Popularity</b> at <b>MIET 2024</b>."
+    description: "🏅 Awarded the prestigious <b>National Science and Technology (NST) Fellowship</b> by the Ministry of Science & Technology, Bangladesh, in recognition of research excellence."
