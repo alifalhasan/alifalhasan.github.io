@@ -3,7 +3,7 @@
   icon: fab fa-linkedin
 
 - name: Google Scholar
-  url: https://scholar.google.com/citations?user=yu0t6qsAAAAJ&hl=en
+  url: https://scholar.google.com/citations?hl=en&user=yu0t6qsAAAAJ&view_op=list_works&sortby=pubdate
   icon: fas fa-graduation-cap
 
 - name: GitHub
@@ -12,7 +12,7 @@
 
 - name: Hugging Face
   url: https://huggingface.co/alifalhasan
-  icon: fas fa-robot
+  icon: si si-huggingface
 
 - name: StopStalk
   url: https://www.stopstalk.com/user/profile/alif_cse_ju
