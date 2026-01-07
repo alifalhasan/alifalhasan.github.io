@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "CS PhD Student @ CWRU"
+title: "Home"
 ---
 
 **Alif Al Hasan** is a **Ph.D. student in Computer Science** at **Case Western Reserve University**, specializing in **Software Engineering and Large Language Models (LLMs)**. He earned his **Bachelor’s and Master’s degrees in Computer Science and Engineering** from **Jahangirnagar University**, building expertise in **algorithm design, competitive programming, and large-scale data analysis**.
