@@ -1,18 +1,21 @@
 posts:
+  - date: "March 2026"
+    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Improving Code Comprehension through Cognitive-Load Aware Automated Refactoring for Novice Programmers”</i> was accepted to <b>EASE 2026 (Rank: A | 28% Acceptance Rate)</b>."
+
   - date: "November 2025"
-    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Learning Programming in Informal Spaces: Using Emotion as a Lens to Understand Novice Struggles on r/learnprogramming”</i> was accepted to <b>ICSE SEET 2026</b>."
+    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Learning Programming in Informal Spaces: Using Emotion as a Lens to Understand Novice Struggles on r/learnprogramming”</i> was accepted to <b>ICSE-SEET 2026 (Rank: A* | 33% Acceptance Rate)</b>."
   
   - date: "October 2025"
-    description: "🏅 Received a <b>Government Scholarship</b> for outstanding academic performance during my B.Sc. studies at <b>Jahangirnagar University</b>."
+    description: "🏅 Received a competitive <b>Government Scholarship</b> for outstanding academic performance during my B.Sc. studies at <b>Jahangirnagar University</b>."
   
   - date: "August 2025"
-    description: "🎓 Began my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, supervised by <b><a href='https://sumonbis.github.io/' target='_blank'>Prof. Sumon Biswas</a></b>."
+    description: "🎓 Began my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, supervised by <b><a href='https://sumonbis.github.io/' target='_blank'>Dr. Sumon Biswas</a></b>."
   
   - date: "March 2025"
-    description: "📝 <b>Workshop Paper Accepted:</b> Our work on <i>LLMs for Bug Report-Based Input Generation</i> was accepted for presentation at <b>LLanMER 2025</b>."
+    description: "📝 <b>Workshop Paper Accepted:</b> Our work on <i>LLMs for Bug Report-Based Input Generation</i> was accepted for presentation at <b>LLanMER @ FSE 2025</b>."
   
   - date: "March 2025"
-    description: "📄 <b>Journal Article Accepted:</b> Our paper on <i>Next POI Recommendation</i> was accepted for publication in <b>Array</b> (SCI Q1, IF 4.5)."
+    description: "📄 <b>Journal Article Accepted:</b> Our paper on <i>Next POI Recommendation</i> was accepted for publication in <b>Array (Rank: Q1 | IF: 4.5 | CiteScore: 10.3)</b>."
   
   - date: "February 2025"
-    description: "🏅 Awarded the prestigious <b>National Science and Technology (NST) Fellowship</b> by the Ministry of Science & Technology, Bangladesh, in recognition of research excellence."
+    description: "🏅 Awarded the prestigious <b>National Science and Technology (NST) Fellowship</b> by the Ministry of Science & Technology, Bangladesh, to support my M.Sc. thesis research."

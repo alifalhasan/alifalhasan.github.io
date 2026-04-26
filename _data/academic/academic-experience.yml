@@ -1,27 +1,33 @@
-- title: "Teaching Assistant"
+- title: "Graduate Teaching Assistant"
+  duration: "Jan, 2026 – May, 2026 (Spring 2026)"
+  course: "CSDS 393/493: Software Engineering"
+  institution: "Case Western Reserve University"
+  responsibilities:
+    - "Evaluated live project architectures and mentored student teams through the software development lifecycle for a cohort of 75 students."
+    - "Led weekly office hours to provide targeted one-on-one debugging support and assess technical assignments."
+
+- title: "Graduate Teaching Assistant"
   duration: "Aug, 2025 – Dec, 2025 (Fall 2025)"
   course: "CSDS 325/425: Computer Networks"
   institution: "Case Western Reserve University"
   responsibilities:
-    - Assisted in teaching undergraduate and graduate students in computer networking concepts.
-    - Held office hours, guided lab assignments, and provided one-on-one academic support.
-    - Supported course logistics including grading, discussion facilitation, and exam preparation.
+    - "Directed complex network simulation projects and facilitated technical discussions for 65 undergraduate and graduate students."
+    - "Evaluated technical coursework and held one-on-one mentoring sessions to reinforce core networking and routing concepts."
 
-- title: "Teaching Assistant (Competitive Programming)"
+- title: "Teaching Assistant"
   duration: "Dec, 2021 – Apr, 2024"
+  course: "Data Structures and Algorithms"
   department: "Computer Science and Engineering"
   institution: "Jahangirnagar University"
   responsibilities:
-    - Conducted extra-curricular Competitive Programming classes for undergraduate students.
-    - Guided students on problem-solving strategies, algorithms, and coding challenges.
-    - Mentored students for inter-university and national-level programming contests.
-    - Provided personalized support and feedback during practice sessions.
+    - "Led extra-curricular algorithmic training sessions for a cohort of 50 students, focusing on advanced data structures and problem-solving heuristics."
+    - "Coached competitive programming teams for national-level contests, conducting rigorous code reviews and optimizing debugging workflows."
 
 - title: "Competitive Programming Mentor"
   duration: "Aug, 2023 – Dec, 2023"
+  course: "Data Structures and Algorithms"
   department: "Computer Science and Engineering"
   institution: "Netrokona University"
   responsibilities:
-    - Designed and conducted weekly training sessions on data structures, algorithms, and problem-solving strategies. 
-    - Prepared students for inter-university and national-level programming contests.
-    - Provided personalized mentorship and debugging guidance during practice sessions.
+    - "Designed an intensive weekly algorithmic curriculum for 30 students to rigorously prepare them for ICPC and IUPC regional contests."
+    - "Delivered personalized code reviews focusing on time-complexity optimization and efficient memory management."

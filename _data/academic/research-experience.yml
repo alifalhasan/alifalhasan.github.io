@@ -1,39 +1,39 @@
 - title: "Graduate Research Assistant"
   supervisor: "Dr. Sumon Biswas"
   lab: "Safe and Responsible AI Engineering Lab"
-  duration: "September 2025 – Ongoing"
+  duration: "Aug, 2025 – Present"
   location: "Case Western Reserve University, Ohio, USA"
   responsibilities:
-    - Conduct cutting-edge research at the intersection of Software Engineering and Large Language Models (LLMs).  
-    - Collaborate with multidisciplinary teams to design, implement, and evaluate LLM-driven software engineering solutions.  
-    - Author and prepare manuscripts for submission to leading peer-reviewed software engineering conferences.  
+    - "Led a comprehensive study characterizing the operational safety failures of agentic code assistants to identify vulnerabilities in automated program synthesis."
+    - "Evaluated state-of-the-art LLMs to pinpoint reliability gaps, establishing new testing frameworks to ensure the safety and robustness of AI in software engineering."
+    - "Authored and submitted manuscripts to top-tier software engineering conferences, including ASE 2026."
 
-- title: "Research Assistant"
+- title: "Remote Research Assistant"
   supervisor: "Dr. Mia Mohammad Imran"
-  lab: "Human-Centered Software Engineering Lab"
-  duration: "May 2024 – July 2025"
+  lab: "Lens for Empirical Navigation in Software Lab (LENS Lab)"
+  duration: "May, 2024 – Jul, 2025"
   location: "Missouri University of Science and Technology, Missouri, USA"
   responsibilities:
-    - Investigated learning-centered emotions (LCEs) in novice programmers to uncover key learning challenges in online forums.  
-    - Analyzed LCEs to assess how LLMs can provide affect-aware, pedagogically effective feedback.  
-    - Co-authored two peer-reviewed papers for top-tier conferences in software engineering and AI education.  
+    - "Analyzed a curated dataset of 1,500 posts using Llama-3.1-70B to model novice emotions, identifying core triggers to propose five affect-aware support bots."
+    - "Developed an AI-guided refactoring framework benchmarked on MBPP and APPS datasets, reducing refactoring failures by 54–71% and improving novice function identification by 31.3%."
+    - "Co-authored two accepted peer-reviewed papers for top-tier software engineering conferences (ICSE-SEET '26 and EASE '26)."
 
 - title: "Remote Research Intern"
   supervisor: "Dr. Tarannum Shaila Zaman"
-  lab: "AI-Driven Software Engineering Lab"
-  duration: "January 2025 – February 2025"
-  location: "University of Maryland Baltimore County, Maryland, USA"
+  lab: "Reliable and Intelligent Software Engineering Lab (Rise Lab)"
+  duration: "Jan, 2025 – Feb, 2025"
+  location: "University of Maryland, Baltimore County, Maryland, USA"
   responsibilities:
-    - Explored the application of LLMs for automated bug report-driven input generation.  
-    - Co-authored a workshop paper accepted at LLanMER 2025.  
-    - Assisted in designing and executing collaborative experiments, including data collection and evaluation pipelines.  
+    - "Built a benchmark of 206 verified Linux coreutils bug reports to evaluate how well open-source LLMs extract failure-inducing inputs."
+    - "Demonstrated that generative LLMs outperformed BERT baselines, with Qwen achieving 62.62% accuracy (BLEU-2 ≥ 0.5)."
+    - "Co-authored a workshop paper accepted at LLanMER, co-located with FSE '25."
 
 - title: "Research Assistant"
   supervisor: "Dr. Md. Musfique Anwar"
   lab: "Data Mining and Information Retrieval Systems Lab"
-  duration: "November 2023 – July 2024"
+  duration: "Nov, 2023 – Jul, 2024"
   location: "Jahangirnagar University, Dhaka, Bangladesh"
   responsibilities:
-    - Developed and optimized recommendation system models, with a focus on Point-of-Interest (POI) popularity prediction.  
-    - Co-authored a Q1 journal article published in *Array* (SCI, IF 4.5).  
-    - Assisted in end-to-end data preprocessing, model design, implementation, and performance evaluation.
+    - "Engineered a Graph-Enhanced Transformer (SEAGET) integrating seasonal and operational time data for Point-of-Interest (POI) recommendation."
+    - "Outperformed state-of-the-art baseline algorithms with a 13.7% improvement in Acc@1."
+    - "Co-authored a Q1 journal article published in Array (SCI, IF 4.5)."
