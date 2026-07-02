@@ -1,9 +1,7 @@
-<!-- Link external CSS and JS -->
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
 <script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
 
 <div class="section-wrapper">
-  <!-- Section Title -->
   <div class="title-container">
     <h2 class="section-title text-center">
       <i class="fas fa-file-alt me-2"></i> Publications
@@ -11,19 +9,28 @@
     <hr class="title-underline">
   </div>
 
-  <!-- Content -->
   <div class="section">
-    {% assign types = "conference,journal,workshop" | split: "," %}
+    {% assign types = "conference,journal,workshop,preprints" | split: "," %}
     {% for type in types %}
+    {% assign type_data = site.data.publications[type] %}
+    {% if type_data %}
     <div class="mb-5">
       <h4 class="section-heading">
-        <i class="fas fa-book-open me-2"></i> {{ type | capitalize }} Papers
+        <i class="fas fa-book-open me-2"></i>
+        {% if type == "preprints" %}Preprints{% else %}{{ type | capitalize }} Papers{% endif %}
       </h4>
 
-      {% assign years = site.data.publications[type] | keys | sort | reverse %}
+      {% assign years = type_data | keys | sort | reverse %}
       {% for year in years %}
-      {% assign papers = site.data.publications[type][year] | reverse %}
+      {% assign papers = type_data[year] | reverse %}
       {% for item in papers %}
+      {% assign place_size = item.place | size %}
+      {% assign venueAbbr_size = item.venueAbbr | size %}
+      {% assign rank_size = item.rank | size %}
+      {% assign metric_size = item.metric | size %}
+      {% assign bibkey_size = item.bibkey | size %}
+      {% assign doi_size = item.doi | size %}
+      {% assign arxiv_size = item.arxiv | size %}
       <div class="card publication-card">
         <div class="card-content">
           <h5 class="card-title">"{{ item.title }}"</h5>
@@ -31,25 +38,33 @@
             <i class="fas fa-user-edit me-1"></i>
             {{ item.authors | replace: 'Alif Al Hasan', '<b>Alif Al Hasan</b>' }}
           </p>
-          <p class="card-text small">
+          <p class="card-text small mb-1">
             <i class="fas fa-building me-1"></i>
-            {{ item.venue }}, <b>[{{ item.venueShort }}]</b>, {{ item.datePlace | default: item.date }}.
+            {{ item.venue }}{% if place_size > 0 %}, {{ item.place }}{% endif %}, {{ year }}
           </p>
 
+          {% if venueAbbr_size > 0 or rank_size > 0 or metric_size > 0 %}
+          <div class="venue-badges">
+            {% if venueAbbr_size > 0 %}<span class="badge-pill">{{ item.venueAbbr }}</span>{% endif %}
+            {% if rank_size > 0 %}<span class="badge-pill badge-rank">{{ item.rank }}</span>{% endif %}
+            {% if metric_size > 0 %}<span class="badge-pill">{{ item.metric }}</span>{% endif %}
+          </div>
+          {% endif %}
+
           <div class="button-group">
-            {% if item.bibkey %}
-            <button class="btn custom-btn cite-btn" data-bibkey="{{ item.bibkey }}">
-              <i class="fas fa-quote-right me-1"></i> Cite
+            {% if bibkey_size > 0 %}
+            <button class="btn custom-btn icon-btn cite-btn" data-bibkey="{{ item.bibkey }}" title="Cite">
+              <i class="fas fa-quote-right"></i>
             </button>
             {% endif %}
-            {% if item.doi %}
-            <a href="{{ item.doi }}" class="btn custom-btn" target="_blank">
-              <i class="fas fa-external-link-alt me-1"></i> DOI
+            {% if doi_size > 0 %}
+            <a href="{{ item.doi }}" class="btn custom-btn icon-btn" target="_blank" title="DOI">
+              <i class="fas fa-external-link-alt"></i>
             </a>
             {% endif %}
-            {% if item.arxiv %}
-            <a href="{{ item.arxiv }}" class="btn custom-btn" target="_blank">
-              <i class="fas fa-book me-1"></i> arXiv
+            {% if arxiv_size > 0 %}
+            <a href="{{ item.arxiv }}" class="btn custom-btn icon-btn" target="_blank" title="arXiv">
+              <i class="fas fa-book"></i>
             </a>
             {% endif %}
           </div>
@@ -58,6 +73,7 @@
       {% endfor %}
       {% endfor %}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>

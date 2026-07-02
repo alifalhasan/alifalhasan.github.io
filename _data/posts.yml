@@ -1,21 +1,27 @@
 posts:
+  - date: "June 2026"
+    description: "📄 <b>Conference Paper Accepted:</b> <i>“What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants”</i> was accepted to <b>ASE 2026</b>."
+
+  - date: "May 2026"
+    description: "📝 <b>Preprint Released:</b> <i>“The Refusal–Compliance Tradeoff: A Large-Scale Safety Behavior Audit of Large Language Models”</i>, a study of safety calibration across 21 open-weight LLMs."
+
   - date: "March 2026"
-    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Improving Code Comprehension through Cognitive-Load Aware Automated Refactoring for Novice Programmers”</i> was accepted to <b>EASE 2026 (Rank: A | 28% Acceptance Rate)</b>."
+    description: "📄 <b>Conference Paper Accepted:</b> <i>“Improving Code Comprehension through Cognitive-Load Aware Automated Refactoring for Novice Programmers”</i> was accepted to <b>EASE 2026</b>."
 
   - date: "November 2025"
-    description: "📄 <b>Conference Paper Accepted:</b> Our paper <i>“Learning Programming in Informal Spaces: Using Emotion as a Lens to Understand Novice Struggles on r/learnprogramming”</i> was accepted to <b>ICSE-SEET 2026 (Rank: A* | 33% Acceptance Rate)</b>."
-  
+    description: "📄 <b>Conference Paper Accepted:</b> <i>“Learning Programming in Informal Spaces: Using Emotion as a Lens to Understand Novice Struggles on r/learnprogramming”</i> was accepted to <b>ICSE-SEET 2026</b>."
+
   - date: "October 2025"
-    description: "🏅 Received a competitive <b>Government Scholarship</b> for outstanding academic performance during my B.Sc. studies at <b>Jahangirnagar University</b>."
-  
+    description: "🏅 Received a competitive <b>Government Scholarship</b> for academic performance during my B.Sc. at <b>Jahangirnagar University</b>."
+
   - date: "August 2025"
-    description: "🎓 Began my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, supervised by <b><a href='https://sumonbis.github.io/' target='_blank'>Dr. Sumon Biswas</a></b>."
-  
+    description: "🎓 Began my <b>Ph.D. in Computer Science</b> at <b>Case Western Reserve University</b>, advised by <b><a href='https://sumonbis.github.io/' target='_blank'>Dr. Sumon Biswas</a></b>."
+
   - date: "March 2025"
-    description: "📝 <b>Workshop Paper Accepted:</b> Our work on <i>LLMs for Bug Report-Based Input Generation</i> was accepted for presentation at <b>LLanMER @ FSE 2025</b>."
-  
+    description: "📝 <b>Workshop Paper Accepted:</b> Our work on LLMs for bug report-based input generation was accepted at <b>LLanMER @ FSE 2025</b>."
+
   - date: "March 2025"
-    description: "📄 <b>Journal Article Accepted:</b> Our paper on <i>Next POI Recommendation</i> was accepted for publication in <b>Array (Rank: Q1 | IF: 4.5 | CiteScore: 10.3)</b>."
-  
+    description: "📄 <b>Journal Article Accepted:</b> Our paper on next-POI recommendation was accepted for publication in <b>Array</b>."
+
   - date: "February 2025"
-    description: "🏅 Awarded the prestigious <b>National Science and Technology (NST) Fellowship</b> by the Ministry of Science & Technology, Bangladesh, to support my M.Sc. thesis research."
+    description: "🏅 Awarded the <b>National Science and Technology (NST) Fellowship</b> by the Ministry of Science & Technology, Bangladesh, to support my M.Sc. thesis research."

@@ -42,7 +42,12 @@
         <div class="card-content">
           <h5 class="card-title">{{ item.title }}</h5>
           <p class="card-text">
-            <i class="fas fa-laptop-code me-1"></i> {{ item.lab }}
+            <i class="fas fa-laptop-code me-1"></i>
+            {% if item.lab_url %}
+            <a href="{{ item.lab_url }}" target="_blank" rel="noopener">{{ item.lab }}</a>
+            {% else %}
+            {{ item.lab }}
+            {% endif %}
           </p>
           <p class="card-text">
             <i class="fas fa-map-marker-alt me-1"></i> {{ item.location }}
