@@ -1,6 +1,15 @@
+# Dependency directories
+.bundle/
+vendor/
+
+# Build and cache files
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# OS specific files
+.DS_Store
+
+# Gem files
 *.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
-Gemfile.lock
