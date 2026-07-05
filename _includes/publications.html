@@ -46,7 +46,7 @@
           {% if venueAbbr_size > 0 or rank_size > 0 or metric_size > 0 %}
           <div class="venue-badges">
             {% if venueAbbr_size > 0 %}<span class="badge-pill">{{ item.venueAbbr }}</span>{% endif %}
-            {% if rank_size > 0 %}<span class="badge-pill badge-rank">{{ item.rank }}</span>{% endif %}
+            {% if rank_size > 0 %}<span class="badge-pill badge-strong">{{ item.rank }}</span>{% endif %}
             {% if metric_size > 0 %}<span class="badge-pill">{{ item.metric }}</span>{% endif %}
           </div>
           {% endif %}

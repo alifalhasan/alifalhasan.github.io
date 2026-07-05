@@ -31,3 +31,10 @@
     font-size: 16px;
     color: #000000;
 }
+
+.footer-meta {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--color-text-muted, #777777);
+    margin-top: 10px;
+}

@@ -5,7 +5,7 @@
   {% include head.html %}
 </head>
 
-<body>
+<body data-repo="{{ site.repository }}" data-cv-path="{{ site.data.settings.cv_path | remove_first: '/' }}">
   <main class="container-lg px-3 py-4 py-md-5">
     {% include header.html %}
 

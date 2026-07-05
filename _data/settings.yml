@@ -1,8 +1,9 @@
 menu:
-# - {name: 'people', url: '/people'}
 - {name: 'Academic', url: '/academic'}
 - {name: 'Publications', url: '/publications'}
 - {name: 'Achievements', url: '/achievements'}
 
 contacts:
 - {name: 'Alif Al Hasan', title: 'Ph.D. Student', department: 'Computer Science', institution: 'Case Western Reserve University', institution_address: 'Cleveland, Ohio, USA', email: 'alifal [dot] hasan [at] case [dot] edu', office: '', image: 'assets/img/alifalhasan.jpg'}
+
+cv_path: "/static/docs/cv.pdf"

@@ -2,4 +2,4 @@
 
 ## Acknowledgements  
 
-This portfolio website is based on the [Academic](https://github.com/LeNPaul/academic) template by [LeNPaul](https://github.com/LeNPaul). I have customized and extended it to fit my personal style and professional needs.
+This portfolio was originally forked from the [Academic](https://github.com/LeNPaul/academic) theme by [LeNPaul](https://github.com/LeNPaul). Since then, I have customized and completely rewritten and re-architectured the codebase to fit my personal style and serve as a custom, purpose-built platform for my research and professional portfolio.

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    academic-jekyll-theme (1.0.0)
+    alifalhasan-portfolio (1.0.0)
       jekyll (~> 4.2)
 
 GEM
@@ -169,7 +169,7 @@ PLATFORMS
   x86_64-mingw-ucrt
 
 DEPENDENCIES
-  academic-jekyll-theme!
+  alifalhasan-portfolio!
   jekyll-seo-tag
   jekyll-sitemap
   wdm (>= 0.1.0)

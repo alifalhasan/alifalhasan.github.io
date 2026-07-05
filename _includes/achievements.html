@@ -1,104 +1,98 @@
-<!-- Link external CSS -->
 <link rel="stylesheet" href="{{ '/assets/css/achievements.css' | relative_url }}">
 
-<section class="section-wrapper">
+<div class="section-wrapper">
     <div class="title-container">
-        <h2 class="section-title">
-            <i class="fas fa-trophy"></i> Achievements
+        <h2 class="section-title text-center">
+            <i class="fas fa-trophy me-2"></i> Achievements
         </h2>
         <hr class="title-underline">
     </div>
 
-    <!-- Grants, Fellowships, and Scholarships -->
-    <div class="achievement-card">
-        <div class="achievement-content">
-            <h4><i class="fas fa-hand-holding-usd"></i> Grants, Fellowships, and Scholarships</h4>
-            <ul class="custom-list">
-                {% for item in site.data.achievements.grants %}
-                <li>
-                    <i class="fas fa-medal icon text-warning"></i>
-                    <div>
-                        <p class="achievement-title">{{ item.name }}
-                            <span class="achievement-subtext">– {{ item.organization }}</span>
-                        </p>
-                        <p class="achievement-meta">
-                            {% if item.amount %}
-                            <i class="fas fa-award"></i> {{ item.amount }} |
-                            {% endif %}
-                            <i class="fas fa-calendar-alt"></i> {{ item.date }}
-                            {% if item.location %}
-                            | <i class="fas fa-map-marker-alt"></i> {{ item.location }}
-                            {% endif %}
-                        </p>
+    <div class="section">
+        <h4 class="section-heading">
+            <i class="fas fa-hand-holding-usd me-2"></i> Grants, Fellowships & Scholarships
+        </h4>
+        <div class="achievement-list">
+            {% for item in site.data.achievements.grants %}
+            {% assign amount_size = item.amount | size %}
+            {% assign location_size = item.location | size %}
+            <div class="achievement-card">
+                <div class="card-content">
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text"><i class="fas fa-university me-1"></i>{{ item.organization }}</p>
+                    <div class="badge-row">
+                        <span class="badge-pill"><i class="far fa-calendar-alt me-1"></i>{{ item.date }}</span>
+                        {% if location_size > 0 %}<span class="badge-pill">{{ item.location }}</span>{% endif %}
+                        {% if amount_size > 0 %}<span class="badge-pill badge-strong">{{ item.amount }}</span>{% endif
+                        %}
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 
-
-    <!-- Standardized Test Scores -->
-    <div class="achievement-card">
-        <div class="achievement-content">
-            <h4><i class="fas fa-file-alt"></i> Standardized Test Scores</h4>
-            <ul class="custom-list">
-                {% for test in site.data.achievements.standardized_tests %}
-                <li>
-                    <i class="fas fa-clipboard-check icon text-muted"></i>
-                    <div>
-                        <p class="achievement-title">{{ test.exam }}: {{ test.score }}</p>
-                        <p class="achievement-meta">{{ test.details }} | <span>{{ test.date }}</span></p>
+    <div class="section">
+        <h4 class="section-heading">
+            <i class="fas fa-file-alt me-2"></i> Standardized Test Scores
+        </h4>
+        <div class="achievement-list">
+            {% for test in site.data.achievements.standardized_tests %}
+            <div class="achievement-card">
+                <div class="card-content">
+                    <h5 class="card-title">{{ test.exam }}: {{ test.score }}</h5>
+                    <p class="card-text">{{ test.details }}</p>
+                    <div class="badge-row">
+                        <span class="badge-pill"><i class="far fa-calendar-alt me-1"></i>{{ test.date }}</span>
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 
-    <!-- Offline Competitive Programming Achievements -->
-    <div class="achievement-card">
-        <div class="achievement-content">
-            <h4><i class="fas fa-chess-knight"></i> Offline Competitive Programming</h4>
-            <ul class="custom-list">
-                {% for comp in site.data.achievements.onsites %}
-                <li>
-                    <i class="fas fa-medal icon text-warning"></i>
-                    <div>
-                        <p class="achievement-title">{{ comp.title }}
-                            {% if comp.rank %} - <span class="achievement-subtext">{{ comp.rank }}</span>{% endif %}
-                        </p>
-                        {% if comp.team %}
-                        <p class="achievement-meta">Team: <b>{{ comp.team }}</b></p>
-                        {% endif %}
+    <div class="section">
+        <h4 class="section-heading">
+            <i class="fas fa-chess-knight me-2"></i> Offline Competitive Programming
+        </h4>
+        <div class="achievement-list">
+            {% for comp in site.data.achievements.onsites %}
+            {% assign rank_size = comp.rank | size %}
+            {% assign team_size = comp.team | size %}
+            <div class="achievement-card">
+                <div class="card-content">
+                    <h5 class="card-title">{{ comp.title }}</h5>
+                    {% if rank_size > 0 or team_size > 0 %}
+                    <div class="badge-row">
+                        {% if rank_size > 0 %}<span class="badge-pill badge-strong">{{ comp.rank }}</span>{% endif %}
+                        {% if team_size > 0 %}<span class="badge-pill">Team: {{ comp.team }}</span>{% endif %}
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 
-    <!-- Online Competitive Programming Achievements -->
-    <div class="achievement-card">
-        <div class="achievement-content">
-            <h4><i class="fas fa-laptop-code"> </i> Online Competitive Programming</h4>
-            <ul class="custom-list">
-                {% for comp in site.data.achievements.onlines %}
-                <li>
-                    <i class="fas fa-globe icon text-success"></i>
-                    <div>
-                        <p class="achievement-title">{{ comp.title }}
-                            {% if comp.profile %}
-                            <a href="{{ comp.profile }}" target="_blank" class="external-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                            {% endif %}
-                        </p>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
+    <div class="section">
+        <h4 class="section-heading">
+            <i class="fas fa-laptop-code me-2"></i> Online Competitive Programming
+        </h4>
+        <div class="achievement-list">
+            {% for comp in site.data.achievements.onlines %}
+            {% assign profile_size = comp.profile | size %}
+            <div class="achievement-card">
+                <div class="card-content achievement-inline">
+                    <h5 class="card-title mb-0">{{ comp.title }}</h5>
+                    {% if profile_size > 0 %}
+                    <a href="{{ comp.profile }}" class="btn custom-btn icon-btn" target="_blank" rel="noopener"
+                        title="View profile">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
-
-</section>
+</div>

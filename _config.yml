@@ -6,6 +6,9 @@ author: "Alif Al Hasan"
 
 logo: "/assets/img/alifalhasan.jpg"
 
+# owner/repo used by assets/js/site-meta.js to fetch "last updated" dates
+# via the GitHub API — forks of this template only need to change this line.
+repository: "alifalhasan/alifalhasan.github.io"
 
 plugins:
   - jekyll-seo-tag
